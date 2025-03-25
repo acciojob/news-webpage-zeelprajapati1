@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Webpage</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .latest-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 60%;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        .latest-news-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .latest-news-section li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .pictorial-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 60%;
+            margin: 20px auto;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .pictorial-news-section img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header class="header">News Webpage</header>
+    
+    <div class="latest-news-section">
+        <h3>Latest News</h3>
+        <ul>
+            <li>Breaking: Major political event unfolds.</li>
+            <li>Sports: Local team secures championship title.</li>
+            <li>Technology: New smartphone model announced.</li>
+        </ul>
+    </div>
+    
+    <div class="pictorial-news-section">
+        <h3>Pictorial News</h3>
+        <img src="image_one.jpg" alt="News Image 1">
+        <img src="image_two.jpg" alt="News Image 2">
+        <img src="image_three.jpg" alt="News Image 3">
+    </div>
 </body>
-
 </html>
